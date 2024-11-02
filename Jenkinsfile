@@ -12,7 +12,7 @@ pipeline {
         stage("Code") {
             steps {
                 script {
-                    clone("https://github.com/LondheShubham153/django-notes-app.git", "main")
+                    clone("https://github.com/Abhishek-28-eng/django-notes-app.git", "main")
                 }
             }
         }
